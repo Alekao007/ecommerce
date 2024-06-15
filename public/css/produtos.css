@@ -1,0 +1,134 @@
+/* Estilos para o container principal */
+.container {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+/* Estilos para o formulário de produtos */
+.form-produto {
+    background-color: #2D3748;
+    padding: 20px;
+    border-radius: 8px;
+    color: #E2E8F0; /* Cor do texto branco para contraste */
+}
+
+.form-produto label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-produto .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #E2E8F0;
+    color: #E2E8F0;
+    background-color: #1A202C; /* Fundo mais escuro para os inputs */
+}
+
+.form-produto .form-control:focus {
+    border-color: #4A90E2;
+    outline: none;
+}
+
+.form-produto button {
+    background-color: #4A90E2;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px; /* Aumenta o tamanho da fonte para os botões */
+}
+
+.form-produto button:hover {
+    background-color: #357ebd; /* Cor mais escura ao passar o mouse */
+}
+
+/* Estilos para a tabela */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 8px;
+    background-color: white;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Estilos para os botões */
+.btn {
+    display: inline-block;
+    padding: 8px 16px; /* Espaçamento interno menor para os botões */
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500; /* Aumenta a espessura da fonte */
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+/* Estilos específicos para cada cor de botão */
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.btn-primary:hover {
+    background-color: #286090; /* Cor mais escura ao passar o mouse */
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+.btn-info:hover {
+    background-color: #31b0d5; /* Cor mais escura ao passar o mouse */
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.btn-warning:hover {
+    background-color: #ec971f; /* Cor mais escura ao passar o mouse */
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c; /* Cor mais escura ao passar o mouse */
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #676767;
+    border-color: #676767;
+}
+
+.btn-secondary:hover {
+    background-color: #585858; /* Cor mais escura ao passar o mouse */
+}
